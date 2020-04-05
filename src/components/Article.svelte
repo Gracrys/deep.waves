@@ -1,0 +1,33 @@
+<article>
+    <a rel='prefetch' href='blog/{post.slug}'><h1>{post.title}</h1>
+        <img src={post.img} alt="">
+    </a>
+    <p>{post.summary}</p>
+    <blockquote></blockquote>
+</article>
+
+
+<script lang="typescript">
+    export let post:object;
+</script>
+
+<style lang="sass">
+article
+    min-width: 300px
+    padding: 1rem
+    transition: background 0.4s
+    &:hover
+        background-color: #232323
+    img
+        width: 100%
+        height: 60%
+        objec-fit: unset
+    p
+        font-size: 0.8rem
+    a
+        text-decoration: none
+    h1
+        font-size: 1.4rem
+        text-decoration: none
+
+</style>
