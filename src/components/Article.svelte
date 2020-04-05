@@ -21,7 +21,7 @@ article
     img
         width: 100%
         height: 60%
-        objec-fit: unset
+        object-fit: unset
     p
         font-size: 0.8rem
     a
@@ -29,5 +29,11 @@ article
     h1
         font-size: 1.4rem
         text-decoration: none
+
+@media screen and ( max-width: 820px )
+    article
+        height: auto
+        img
+            height: auto
 
 </style>

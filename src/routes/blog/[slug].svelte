@@ -23,6 +23,7 @@
 	article
 		max-width: 90%
 		margin: auto
+
 		figure
 			float: left
 			max-width: 30%
@@ -34,6 +35,14 @@
 				font-weight: bold
 			img
 				width: 100%
+
+		@media screen and ( max-width: 820px )
+			margin-bottom: 2rem
+			figure	
+				max-width: 100%
+				border-bottom: 1px solid var(--text)
+				width: 100%
+				margin-bottom: 1rem
 	
 
 	.content :global(h2) 

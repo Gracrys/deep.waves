@@ -21,6 +21,9 @@ section
 	overflow-x: scroll
 	scrollbar-color: var(--sky) var(--bg)
 	scrollbar-width: thin
+	@media screen and ( max-width: 820px )
+		flex-direction: column
+		height: auto
 </style>
 
 

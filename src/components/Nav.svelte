@@ -34,7 +34,6 @@ header
 	transition: margin 0.6s
 	&.open
 		margin-left: 0
-		margin-right: 2rem
 	> nav ul
 		display: flex
 		flex-direction: column
@@ -43,6 +42,12 @@ header
 		> li
 			margin 2rem 0
 
+	@media screen and ( max-width: 820px )
+		width: 240px
+		min-width: 180px
+		margin-left: calc(-240px - 2rem)
+		&.open
+			margin-left: 0 
 </style>
 
 

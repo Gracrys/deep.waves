@@ -16,7 +16,7 @@ const dispatch = createEventDispatcher();
 <style lang="sass">
 .header
 	max-width: 90%
-	margin: 1rem auto 2rem
+	margin: 1rem auto 
 	display: flex
 	justify-content: space-between
 	width: 100%
@@ -56,12 +56,22 @@ const dispatch = createEventDispatcher();
 			margin: 0
 	button.menu
 		width: 50px
+		max-width: 50px
+		min-width: 50px
 		background: transparent
 		border: none
 		display: flex
 		align-items: center
 		cursor: pointer
-		
+	@media screen and (max-width: 830px)
+		dialog
+			position: fixed
+			width: 90%
+			margin: auto
+			bottom: 0
+			&.open
+				display: none
+					
 
 </style>
 
