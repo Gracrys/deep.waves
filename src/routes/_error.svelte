@@ -6,6 +6,10 @@
 </script>
 
 <style>
+	section {
+		text-align: center;
+	}
+
 	h1, p {
 		margin: 0 auto;
 	}
@@ -30,6 +34,7 @@
 <svelte:head>
 	<title>{status}</title>
 </svelte:head>
+<section>
 
 <h1>{status}</h1>
 
@@ -38,3 +43,5 @@
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>
 {/if}
+
+</section>
