@@ -1,14 +1,14 @@
 export  const tags = [
     {
-        name: "#popo",
-        slug: "popo"
+        name: "#review",
+        slug: "review"
     },
     {
-        name: "#pipi",
-        slug: "pipi"
+        name: "#obscure",
+        slug: "obscure"
     },
     {
-        name: "#suck",
-        slug: "suck"
+        name: "#sucks",
+        slug: "sucks"
     },
 ]

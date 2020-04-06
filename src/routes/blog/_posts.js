@@ -14,7 +14,7 @@ const posts = [
 		title: 'What is Sapper?',
 		slug: 'what-is-sapper',
 		img: '/blog/lsd.jpg',
-		tags:  ["#pipi"],
+		tags:  ["#review"],
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue neque sit amet arcu volutpat vehicula. Proin ultricies vel lorem sed porta. Donec et facilisis risus. Maecenas efficitur justo vitae ex interdum, quis lobortis mi rhoncus. ',
 		html: `
 			<p>First, you have to know what <a href='https://svelte.dev'>Svelte</a> is. Svelte is a UI framework with a bold new idea: rather than providing a library that you write code with (like React or Vue, for example), it's a compiler that turns your components into highly optimized vanilla JavaScript. If you haven't already read the <a href='https://svelte.dev/blog/frameworks-without-the-framework'>introductory blog post</a>, you should!</p>
@@ -36,7 +36,7 @@ const posts = [
 		title: 'How to use Sapper',
 		slug: 'how-to-use-sapper',
 		img: '/blog/ghosts-locusts.jpg',
-		tags:  ["#popo"],
+		tags:  ["#review"],
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue neque sit amet arcu volutpat vehicula. Proin ultricies vel lorem sed porta. Donec et facilisis risus. Maecenas efficitur justo vitae ex interdum, quis lobortis mi rhoncus. ',
 		html: `
 			<h2>Step one</h2>
@@ -62,7 +62,7 @@ const posts = [
 	{
 		title: 'Why the name?',
 		slug: 'why-the-name',
-		tags:  ["#popo"],
+		tags:  ["#review"],
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue neque sit amet arcu volutpat vehicula. Proin ultricies vel lorem sed porta. Donec et facilisis risus. Maecenas efficitur justo vitae ex interdum, quis lobortis mi rhoncus. Phasellus vel magna orci. Sed convallis ipsum quis nibh porta tempus. Sed nec vulputate erat. In faucibus, sem eu feugiat tincidunt, nibh nibh auctor neque, id bibendum tortor turpis eu ipsum. Phasellus at ultricies velit, a egestas lorem. Ut elementum a eros et sodales. Donec accumsan risus ac massa blandit molestie. Nam rhoncus, dolor euismod gravida bibendum, turpis ipsum ultricies massa, non rhoncus arcu ex vitae nibh. Aenean eu posuere libero, eget finibus augue. ',
 		html: `
 			<p>In war, the soldiers who build bridges, repair roads, clear minefields and conduct demolitions — all under combat conditions — are known as <em>sappers</em>.</p>
@@ -74,7 +74,7 @@ const posts = [
 	{
 		title: 'How is Sapper different from Next.js?',
 		slug: 'how-is-sapper-different-from-next',
-		tags:  ["#popo"],
+		tags:  ["#review"],
 		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue neque sit amet arcu volutpat vehicula. Proin ultricies vel lorem sed porta. Donec et facilisis risus. Maecenas efficitur justo vitae ex interdum, quis lobortis mi rhoncus. Phasellus vel magna orci. Sed convallis ipsum quis nibh porta tempus. Sed nec vulputate erat. In faucibus, sem eu feugiat tincidunt, nibh nibh auctor neque, id bibendum tortor turpis eu ipsum. Phasellus at ultricies velit, a egestas lorem. Ut elementum a eros et sodales. Donec accumsan risus ac massa blandit molestie. Nam rhoncus, dolor euismod gravida bibendum, turpis ipsum ultricies massa, non rhoncus arcu ex vitae nibh. Aenean eu posuere libero, eget finibus augue. ',
 		html: `
 			<p><a href='https://github.com/zeit/next.js'>Next.js</a> is a React framework from <a href='https://zeit.co'>Zeit</a>, and is the inspiration for Sapper. There are a few notable differences, however:</p>
@@ -91,7 +91,7 @@ const posts = [
 	{
 		title: 'How can I get involved?',
 		slug: 'how-can-i-get-involved',
-		tags:  ["#popo"],
+		tags:  ["#review"],
 		img: '',
 		html: `
 			<p>We're so glad you asked! Come on over to the <a href='https://github.com/sveltejs/svelte'>Svelte</a> and <a href='https://github.com/sveltejs/sapper'>Sapper</a> repos, and join us in the <a href='https://svelte.dev/chat'>Discord chatroom</a>. Everyone is welcome, especially you!</p>
