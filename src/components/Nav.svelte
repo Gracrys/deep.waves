@@ -1,7 +1,7 @@
 <script>
+	import { tags } from "../store/tags.js"
 	// export let segment;
 	export let open = false;
-	$: console.log(open)
 </script>
 
 <style lang="sass">
@@ -10,6 +10,7 @@ header
 	width: 100%
 	h2
 		font-weight: bold
+		font-family: Lustria
 	.logo
 		width: 80px
 		margin: auto
@@ -34,13 +35,27 @@ header
 	transition: margin 0.6s
 	&.open
 		margin-left: 0
-	> nav ul
+	> nav
 		display: flex
 		flex-direction: column
-		align-items: center
-		padding: 0
-		> li
-			margin 2rem 0
+		height: 60%
+		ul
+			display: flex
+			flex-direction: column
+			align-items: center
+			padding: 0
+			list-style: none
+			> li
+				margin 2rem 0
+				padding: 0
+
+		footer
+			margin-top: auto
+			border-top: 1px solid var(--bg)
+			padding-top: 0.4rem
+			a
+				text-align: center
+				
 
 	@media screen and ( max-width: 820px )
 		width: 240px
@@ -63,9 +78,9 @@ header
 
 	<nav>
 		<ul>
-			<a href="">#popo</a>
-			<a href="">#pipi</a>
-			<a href="">#caca</a>
+			{#each tags as tag}
+				<li><a href="{tag.slug}">{tag.name}</a></li>
+			{/each}
 
 			<!-- <li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>
 			<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>about</a></li>
@@ -74,6 +89,10 @@ header
 				the blog data when we hover over the link or tap it on a touchscreen -->
 			<!-- <li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li> -->
 		</ul>
+		<footer>
+		
+			<a href="">about</a>
+		</footer>
 	</nav>
 
 </aside>

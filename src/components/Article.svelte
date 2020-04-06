@@ -16,6 +16,7 @@ article
     min-width: 300px
     padding: 1rem
     transition: background 0.4s
+    max-width: 400px
     &:hover
         background-color: #232323
     img
