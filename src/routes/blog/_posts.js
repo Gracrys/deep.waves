@@ -11,24 +11,19 @@
 
 const posts = [
 	{
-		title: 'What is Sapper?',
-		slug: 'what-is-sapper',
+		title: 'A trip in lsd',
+		slug: 'lsd',
 		img: '/blog/lsd.jpg',
-		tags:  ["#review"],
-		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue neque sit amet arcu volutpat vehicula. Proin ultricies vel lorem sed porta. Donec et facilisis risus. Maecenas efficitur justo vitae ex interdum, quis lobortis mi rhoncus. ',
+		tags:  ["#review", "#pop"],
+		summary: 'A psychodelical trip into an emotional and surrealist world of colours and flavors from three known artists, a new arrival of bubblegum pop and neo-psychodelia.',
 		html: `
-			<p>First, you have to know what <a href='https://svelte.dev'>Svelte</a> is. Svelte is a UI framework with a bold new idea: rather than providing a library that you write code with (like React or Vue, for example), it's a compiler that turns your components into highly optimized vanilla JavaScript. If you haven't already read the <a href='https://svelte.dev/blog/frameworks-without-the-framework'>introductory blog post</a>, you should!</p>
-
-			<p>Sapper is a Next.js-style framework (<a href='blog/how-is-sapper-different-from-next'>more on that here</a>) built around Svelte. It makes it embarrassingly easy to create extremely high performance web apps. Out of the box, you get:</p>
-
-			<ul>
-				<li>Code-splitting, dynamic imports and hot module replacement, powered by webpack</li>
-				<li>Server-side rendering (SSR) with client-side hydration</li>
-				<li>Service worker for offline support, and all the PWA bells and whistles</li>
-				<li>The nicest development experience you've ever had, or your money back</li>
-			</ul>
-
-			<p>It's implemented as Express middleware. Everything is set up and waiting for you to get started, but you keep complete control over the server, service worker, webpack config and everything else, so it's as flexible as you need it to be.</p>
+			<p>The most expected album of the year, atleast for me, <b> LSD </b> came in April,12 and broke out all the expectations with a fresh syle and innovative.</p>
+			<p> Got a nice audience since its single <b> Genius </b>, a neo psychodelic style with the soft melodies of <b> Sia </b> and <b> Labyrinth </b> along with a great harmony from <b> Diplo </b> and some catchy-pop lyrics, that, until now i cant stop singing them in the shower.
+			<p> With the arrival of <b> Thunderclouds </b> they had paved a road, i expected a conceptual album, and the video came to me for surprise, a surrealist interpretation of the principal characters of the album, and, at the same time, a new path to follow by each one of the pilars of this story </p>
+			<p> This album, when i first listened to it, it was unexpected, i got myself inmersed into a experimental melody of neo-psychodelia with a presentation like that of <i> some kind of magic </i> or <i> Welcome to the world of plastic beach </i> both from gorillaz, the presentation of a new world, showing o you a new musical product unique and amazing you with some guitar riffs just arriving the first song <b> Welcome to the wonderful world of </b>. The voices created an ambient and great melody, with lyrics talking about world and trips with a twist, some songs depicting that feelings are <b> Thunderclouds </b>, <b> Its Time </b> and <b> Genius </b>,
+			this masterpiece consists in a return of what was the bubblegum pop of the 80s with some subtle voices from <b> Sia </b> electronic melodies from <b> Diplo </b> and at the same time modern rythmn with some effects like glitch and danceable sounds.
+			A sweet rythmn floats all over the album and waves between sweet tones and happy ones, each songs leaves you wanting for more and you can feel it, not only as a pop danceable song, but even more, in the emotional spectrum </p>
+			<p> This album could make a difference, bringing back that psychodelic style, like that of tame imapala or with that acid style of grimes, and even, influentiate many bands from the pop genre... </p>
 		`
 	},
 

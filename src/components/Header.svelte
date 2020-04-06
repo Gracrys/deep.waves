@@ -63,6 +63,8 @@ const dispatch = createEventDispatcher();
 		display: flex
 		align-items: center
 		cursor: pointer
+		img
+			width: 40px
 	@media screen and (max-width: 830px)
 		dialog
 			position: fixed

@@ -30,7 +30,7 @@ header
 	width: 20vw
 	height: 100vh
 	position: relative
-	margin-left: -20vw
+	margin-left: calc(-20vw - 2rem)
 	background: #0D0D0D
 	transition: margin 0.6s
 	&.open

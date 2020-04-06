@@ -9,6 +9,18 @@
 <script>
 	import Article from "../components/Article.svelte"
 	export let posts;
+
+	let scrollH = (e) => {
+		if(e.type != 'wheel')
+		{
+			return;
+		}
+		let delta = ((e.deltaY || -e.wheelDelta || e.detail) >> 10) || 1;
+		delta = delta * (-100);
+		document.querySelector("section.svelte-6s3vya").scrollLeft -= delta;    
+
+		e.preventDefault();
+	}
 </script>
 
 
@@ -32,7 +44,7 @@ section
 	<title>Deep.Waves</title>
 </svelte:head>
 
-<section>
+<section on:wheel={scrollH}>
 
 {#each posts as post}
 	<Article { post } />

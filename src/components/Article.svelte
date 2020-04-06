@@ -3,7 +3,11 @@
         <img src={post.img} alt="">
     </a>
     <p>{post.summary}</p>
-    <blockquote></blockquote>
+    <blockquote>
+        {#each post.tags as tag}
+            <i>{tag}</i>
+        {/each}
+    </blockquote>
 </article>
 
 
@@ -30,6 +34,13 @@ article
     h1
         font-size: 1.4rem
         text-decoration: none
+    blockquote
+        display: flex
+        flex-wrap: wrap
+        font-size: 0.8rem
+        margin: 0
+        i
+            margin-right: 1rem
 
 @media screen and ( max-width: 820px )
     article

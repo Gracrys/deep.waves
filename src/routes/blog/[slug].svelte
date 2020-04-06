@@ -35,6 +35,15 @@
 				font-weight: bold
 			img
 				width: 100%
+			figcaption
+				blockquote
+					display: flex
+					flex-wrap: wrap
+					font-size: 0.8rem
+					margin: 0
+					i
+						margin-right: 1rem
+
 
 		@media screen and ( max-width: 820px )
 			margin-bottom: 2rem
@@ -78,17 +87,21 @@
 
 <article>
 
-<figure>
+	<figure>
 
-	<h1>{post.title}</h1>
-	<img src="{post.img}" alt="">
-	<figcaption>
-		<blockquote></blockquote>
-	</figcaption>
-</figure>
+		<h1>{post.title}</h1>
+		<img src="{post.img}" alt="">
+		<figcaption>
+			<blockquote>
+			{#each post.tags as tag}
+				<i>{tag}</i>
+			{/each}
+			</blockquote>
+		</figcaption>
+	</figure>
 
-<div class='content'>
-	{@html post.html}
-</div>
+	<div class='content'>
+		{@html post.html}
+	</div>
 
 </article>
