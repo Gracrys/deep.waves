@@ -35,7 +35,7 @@ const posts = [
 		summary: 'The dark continuation to one of the most powerful pieces in the genre of dark ambient',
 		html: `
 			<h4>Ghosts V - Together</h4>
-			<h4>Ghosts VI - Locusts/h4>
+			<h4>Ghosts VI - Locusts</h4>
 			<p>The first time i listened to the first fourth parts of that album, i wasnt accustomed to ambient, even, hearing this kind of atmospheric songs, even albums, fell in love with the raw style of Nine inch nails, but this, enlightened me, was a contrast between a soft trip into darkness, and also a feeling of bliss, a soft haze.</p>
 <p> I listened to this one with a more mature ear, and reminded me of that old bliss, but, even, felt more... harsh... atleast by the side of <b> locusts</b>, like a dreaded end to a big symphony, some noise in the background, <b> together </b>, was softer, sounded more like the old ghosts, enveloping me in a warm feel, feeling myself and the songs, like one, together, every movement felt low paced, but wonderful.</p>		<p> Not my favorite album of <b>NIN</b>, not a big fan of ambient, and dark ambient makes me kind of anxious, i have less of that feeling with ghosts than with other pieces of the same genre to be honest, and, after their new path into soundtracks, they are doing a great work, i feel glad listening to them again, even, in their darkest-ambiental hours....`
 		
