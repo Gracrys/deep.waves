@@ -42,15 +42,16 @@ const posts = [
 	},
 
 	{
-		title: 'Why the name?',
-		slug: 'why-the-name',
-		tags:  ["#review"],
-		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue neque sit amet arcu volutpat vehicula. Proin ultricies vel lorem sed porta. Donec et facilisis risus. Maecenas efficitur justo vitae ex interdum, quis lobortis mi rhoncus. Phasellus vel magna orci. Sed convallis ipsum quis nibh porta tempus. Sed nec vulputate erat. In faucibus, sem eu feugiat tincidunt, nibh nibh auctor neque, id bibendum tortor turpis eu ipsum. Phasellus at ultricies velit, a egestas lorem. Ut elementum a eros et sodales. Donec accumsan risus ac massa blandit molestie. Nam rhoncus, dolor euismod gravida bibendum, turpis ipsum ultricies massa, non rhoncus arcu ex vitae nibh. Aenean eu posuere libero, eget finibus augue. ',
-		html: `
-			<p>In war, the soldiers who build bridges, repair roads, clear minefields and conduct demolitions — all under combat conditions — are known as <em>sappers</em>.</p>
+		title: 'Noir Desir - Des Visages Des figures',
+		img: '/blog/noir-desir.jpg',
+		slug: 'noir-desir',
+		tags:  ["#review", "#obscure"],
+		summary: 'The noise rock - garage album that made me want to learn french, The inner experience inside the emotions of a common man',
+		html: `<p>I could describe the album as the garage interpretation of the daily life of a sensible man, understanding more and more about his feelings, but that would be too ambiguous and short.
+And doesnt make enough justice for the album</p>
 
-			<p>For web developers, the stakes are generally lower than those for combat engineers. But we face our own hostile environment: underpowered devices, poor network connections, and the complexity inherent in front-end engineering. Sapper, which is short for <strong>S</strong>velte <strong>app</strong> mak<strong>er</strong>, is your courageous and dutiful ally.</p>
-		`
+<p>This is a journey, an album that varies and plays with noise, instruments, and voices, bertrand cantat does a great job, choosing diferent tones for his voice  s in different songs, Des visages des figures and L'Appartment shows a softer voice, intropective, emotional. Le grand incendie shows a heavier tone, and L'Enfant Roi, opens the album, using a thin falsetto in a repetitive kind of trippy instrumental, about just, a piece of a normal life.</p>
+			`
 	},
 
 	{
