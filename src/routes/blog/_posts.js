@@ -50,8 +50,15 @@ const posts = [
 		html: `<p>I could describe the album as the garage interpretation of the daily life of a sensible man, understanding more and more about his feelings, but that would be too ambiguous and short.
 And doesnt make enough justice for the album</p>
 
-<p>This is a journey, an album that varies and plays with noise, instruments, and voices, bertrand cantat does a great job, choosing diferent tones for his voice  s in different songs, Des visages des figures and L'Appartment shows a softer voice, intropective, emotional. Le grand incendie shows a heavier tone, and L'Enfant Roi, opens the album, using a thin falsetto in a repetitive kind of trippy instrumental, about just, a piece of a normal life.</p>
-			`
+<p>This is a journey, an album that varies and plays with noise, instruments, and voices, bertrand cantat does a great job, choosing diferent tones for his voices in different songs, Des visages des figures and L'Appartment shows a softer voice, intropective, emotional. Le grand incendie shows a heavier tone, and L'Enfant Roi, opens the album, using a thin falsetto in a repetitive kind of trippy instrumental, about just, a piece of a normal life.</p>
+
+		<p>All the album is full of different metaphores to life, playing with many images and at the same time depicting just, ordinary moments.</p>
+
+<p>Le grand incendie shows a strident harmonica playing in company of stepped hard  drums, many references to riots, or atleast, just, liberation, until the words "cour" appear into place, meaning a rift of water, yelling at the microphone, just increasing the noise in the song, until the last explosion of instruments bursting the harmony.</p>
+
+<p>Lost, which made me fall in love completely, is at first, just a note, an inner observation of loneliness... which ends in desesperation, he plays in a complete amazing way with emotions, his voice becomes raspy or hoarse while the song pases, while in the song, he starts talking more about psychological consequences... Until he explodes, the image of the single is really amazing, a doodle of a wolf barking at.. anything, or whatever that appears in the picture, which does a good job explaining the song at first. the song becomes harder, faster, and he loses it, he screams to the listener i'm lost</p>
+
+<p>The album does a great job in production, harmony and message, its style is something complex, not boring or repetitive, and even experimental, and the band is kind of obscure outside France, one of my favorites gems.</p>	`
 	},
 
 	{
