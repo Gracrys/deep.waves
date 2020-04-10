@@ -1,3 +1,7 @@
+import showdown from 'showdown';
+
+const converter = new showdown.Converter()
+
 // Ordinarily, you'd generate this data from markdown files in your
 // repo, or fetch them from a database of some kind. But in order to
 // avoid unnecessary dependencies in the starter template, and in the
@@ -62,25 +66,26 @@ And doesnt make enough justice for the album</p>
 	},
 
 	{
-		title: 'How is Sapper different from Next.js?',
-		slug: 'how-is-sapper-different-from-next',
-		tags:  ["#review"],
-		summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue neque sit amet arcu volutpat vehicula. Proin ultricies vel lorem sed porta. Donec et facilisis risus. Maecenas efficitur justo vitae ex interdum, quis lobortis mi rhoncus. Phasellus vel magna orci. Sed convallis ipsum quis nibh porta tempus. Sed nec vulputate erat. In faucibus, sem eu feugiat tincidunt, nibh nibh auctor neque, id bibendum tortor turpis eu ipsum. Phasellus at ultricies velit, a egestas lorem. Ut elementum a eros et sodales. Donec accumsan risus ac massa blandit molestie. Nam rhoncus, dolor euismod gravida bibendum, turpis ipsum ultricies massa, non rhoncus arcu ex vitae nibh. Aenean eu posuere libero, eget finibus augue. ',
-		html: `
-			<p><a href='https://github.com/zeit/next.js'>Next.js</a> is a React framework from <a href='https://zeit.co'>Zeit</a>, and is the inspiration for Sapper. There are a few notable differences, however:</p>
+		title: 'FIRE! Orchestra - Enter',
+		slug: 'fire-orchestra',
+		img: '/blog/fire!.jpg',
+		tags:  ["#review", '#recc', '#obscure'],
+		summary: 'An experimental disonant orchestra with influences of jazz, blues, gospel and overall noise.',
+		md:  `
+Found this band by following some **faust** and **dalek** albums, both masters of the noise genre and this orchestra is not to be left behind, this is a really undrstimated album, full of noise but at the same time, instrumentation, a really high quality production and with a clean improvisation.
 
-			<ul>
-				<li>It's powered by <a href='https://svelte.dev'>Svelte</a> instead of React, so it's faster and your apps are smaller</li>
-				<li>Instead of route masking, we encode route parameters in filenames. For example, the page you're looking at right now is <code>src/routes/blog/[slug].svelte</code></li>
-				<li>As well as pages (Svelte components, which render on server or client), you can create <em>server routes</em> in your <code>routes</code> directory. These are just <code>.js</code> files that export functions corresponding to HTTP methods, and receive Express <code>request</code> and <code>response</code> objects as arguments. This makes it very easy to, for example, add a JSON API such as the one <a href='blog/how-is-sapper-different-from-next.json'>powering this very page</a></li>
-				<li>Links are just <code>&lt;a&gt;</code> elements, rather than framework-specific <code>&lt;Link&gt;</code> components. That means, for example, that <a href='blog/how-can-i-get-involved'>this link right here</a>, despite being inside a blob of HTML, works with the router as you'd expect.</li>
-			</ul>
-		`
+Comes soft at first, a thin noise wall separates the voices and the trumpets, bass, drums, etc, while it feels afterwards blending until it reaches an only voice, the vocals are clean, lyrical, emotionals, and just by the end of the album, it gets more raw, the lyrics become parts of the album and i could listen was sweet moans.
+
+The albums feels really natural and emotional, touching i would say, in some parts becoming an anxiety passage, in others, a brink of illumination in a room full of vapor.
+`,
+
+		html: `
+`
 	},
 
 
 ];
 
-
+posts.forEach(x => x.md ? x.html = converter.makeHtml(x.md) : x.html)
 
 export default posts;
