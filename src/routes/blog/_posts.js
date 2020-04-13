@@ -15,6 +15,20 @@ const converter = new showdown.Converter()
 
 const posts = [
 	{
+		title: 'Skating Polly - Fuzz Steilacoom',
+		slug: 'Skating-polly',
+		img: '/blog/skating-polly.jpeg',
+		tags: ['#obscure', '#review', '#grunge', '#garage'],
+		summary : 'Grunge, Teen angst, and all that from a group of highschool teenagers',
+		md: `
+		This album made me rethink about if grunge is really dead, maybe it is, but this, is a new wave for it, and would strike again the charts,
+
+		I dont say that this album would become a top seller, but has the energy, the emotion, the production, of a good grunge - garage rock album, even for a sixteen girl and her friends, the fuzz of the guitars feel excelent, invigorant, the drums remind me of dave grohl, has that **hole** energy, but i kind of like this artist over hole... (not a big fan of Courtney) The vocals are soft, tender when they have to be, overall in the other albums, being this one the most hard of them all, with sturdy vocals, hard screams, and a wall of noise that pushes you over.
+		`,
+		html: `
+`
+	},
+	{
 		title: 'A trip in lsd',
 		slug: 'lsd',
 		img: '/blog/lsd.jpg',
@@ -49,7 +63,7 @@ const posts = [
 		title: 'Noir Desir - Des Visages Des figures',
 		img: '/blog/noir-desir.jpg',
 		slug: 'noir-desir',
-		tags:  ["#review", "#obscure"],
+		tags:  ["#review", "#obscure", '#noise', '#garage'],
 		summary: 'The noise rock - garage album that made me want to learn french, The inner experience inside the emotions of a common man',
 		html: `<p>I could describe the album as the garage interpretation of the daily life of a sensible man, understanding more and more about his feelings, but that would be too ambiguous and short.
 And doesnt make enough justice for the album</p>

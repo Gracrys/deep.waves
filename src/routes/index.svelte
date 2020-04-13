@@ -45,9 +45,7 @@ section
 </svelte:head>
 
 <section on:wheel={scrollH}>
-
-{#each posts as post}
-	<Article { post } />
-{/each}
-
+		{#each posts as post}
+			<Article { post } />
+		{/each}
 </section>

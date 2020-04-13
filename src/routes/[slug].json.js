@@ -14,9 +14,9 @@ export function get(req, res) {
 
     if(contents.posts.length > 0){
 
-	res.writeHead(200, {
-        'Content-Type': 'application/json'
-	});
+	res.end(JSON.stringify({
+			message: `No posts under this category`
+		}));
 
     res.end(JSON.stringify(contents));
 

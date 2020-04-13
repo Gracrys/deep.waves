@@ -12,8 +12,7 @@
 </script>
 
 <script>
-    import Article from "../components/Article.svelte"
-
+	import Article from "../components/Article.svelte"
 
     export let content;
     let {posts, actualTag} = content
@@ -21,6 +20,11 @@
 
 
 <style lang="sass">
+h1
+	font-family: Lustria
+	max-width: calc(90% + 2rem)
+	font-weight: bold
+	margin: auto
 section
 	display: flex
 	max-width: calc(90% + 4rem)
@@ -29,6 +33,7 @@ section
 	overflow-x: scroll
 	scrollbar-color: var(--sky) var(--bg)
 	scrollbar-width: thin
+
 	@media screen and ( max-width: 820px )
 		flex-direction: column
 		height: auto
@@ -40,10 +45,9 @@ section
 	<title>Deep.Waves - { actualTag[0].name }</title>
 </svelte:head>
 
+<h1> { actualTag[0].name }</h1>
 <section>
-
-{#each posts as post}
-	<Article { post } />
-{/each}
-
+		{#each posts as post}
+			<Article { post } />
+		{/each}
 </section>
