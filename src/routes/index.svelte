@@ -9,7 +9,6 @@
 <script>
 	import Article from "../components/Article.svelte"
 	export let posts;
-
 	let scrollH = (e) => {
 		if(e.type != 'wheel')
 		{

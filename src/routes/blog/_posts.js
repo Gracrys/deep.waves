@@ -34,11 +34,9 @@ Well first thing first, i love **RelapseRecords** I mean, they have brought many
 		img: '/blog/skating-polly.jpeg',
 		tags: ['#obscure', '#review', '#grunge', '#garage'],
 		summary : 'Grunge, Teen angst, and all that from a group of highschool teenagers',
-		md: `
-		This album made me rethink about if grunge is really dead, maybe it is, but this, is a new wave for it, and would strike again the charts,
+		md: `This album made me rethink about if grunge is really dead, maybe it is, but this, is a new wave for it, and would strike again the charts,
 
-		I dont say that this album would become a top seller, but has the energy, the emotion, the production, of a good grunge - garage rock album, even for a sixteen girl and her friends, the fuzz of the guitars feel excelent, invigorant, the drums remind me of dave grohl, has that **hole** energy, but i kind of like this artist over hole... (not a big fan of Courtney) The vocals are soft, tender when they have to be, overall in the other albums, being this one the most hard of them all, with sturdy vocals, hard screams, and a wall of noise that pushes you over.
-		`,
+		I dont say that this album would become a top seller, but has the energy, the emotion, the production, of a good grunge - garage rock album, even for a sixteen girl and her friends, the fuzz of the guitars feel excelent, invigorant, the drums remind me of dave grohl, has that **hole** energy, but i kind of like this artist over hole... (not a big fan of Courtney) The vocals are soft, tender when they have to be, overall in the other albums, being this one the most hard of them all, with sturdy vocals, hard screams, and a wall of noise that pushes you over.`,
 		html: `
 `
 	},

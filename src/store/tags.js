@@ -8,7 +8,7 @@ export  const tags = [
         slug: "obscure"
     },
     {
-        name: "#sucks",
-        slug: "sucks"
+        name: "#garage",
+        slug: "garage"
     },
 ]
