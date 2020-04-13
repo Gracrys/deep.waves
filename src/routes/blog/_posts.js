@@ -15,6 +15,20 @@ const converter = new showdown.Converter()
 
 const posts = [
 	{
+		title: 'Nothing - Dance on the Blacktop',
+		img: '/blog/nothing.jpg',
+		slug: 'nothing',
+		summary: 'A new wave of darkgaze is getting into the sounds of doom metal, black and others...',
+		tags: ['#obscure','#noise', '#doom'],
+		md: `
+Well first thing first, i love **RelapseRecords** I mean, they have brought many doom - stoner bands like **Red fang** or **Kylesa** and **nothing** is not an exception of that style, A doom style into a blackgaze band, the vocals are great, raw and changing, and just a velvet cape of noise mesmerizes your senses with energy of black and doom metal, great  stuff, feels harsh, at the kind of solstafir but at the same time not tha heavy like you would get from the first albums of solstafir or merzbow.
+
+`
+,
+		html: ''
+
+	},
+	{
 		title: 'Skating Polly - Fuzz Steilacoom',
 		slug: 'Skating-polly',
 		img: '/blog/skating-polly.jpeg',
