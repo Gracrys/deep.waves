@@ -15,6 +15,26 @@ const converter = new showdown.Converter()
 
 const posts = [
 	{
+		title: '春ねむり 【Haru Nemuri】 - Haru To Shura',
+		img: '/blog/haru.jpg',
+		slug: 'haru-to-shura',
+		summary: 'A noise packed hazy album, full of hard guitar riffs, and aggressive drums, in a dream pop - noise rock album',
+		tags: ['#pop','#noise', '#rock', '#dreampop', '#japanese'],
+		md: `
+I have been a big fan of japanese experimental music, like kyo, ningen isu, and avantgarde, they have a way of blending.... or playing with dissonant harmonies, and this album, does that.
+this album, well the single; **yume wo mijou** made me want to look for the album, sadly, it was hard to look for some kanji symbols... but at last, found it, an album packed with a noise accompanied vocals in progression
+and emotionally charged yellings to the modern life.
+the electronics used in the album makes a soft background along with the noisy parts and harsh riffs,
+has some kind of generic sound in some songs, but its progression in some songs like narashite, by using a faster pace it does change the sentiment of the song and the style of the album in general, 
+but by changing some style at the end of some songs doesnt make the album more appealing, it can sounds a litte too repetitive or generic, and the voice of the girl, despite the many changes of pitch doesnt make the effect that some others noise rock albums use.
+Great album, can be real trip at first listening, but is not that fresh as it may sounds conceptually speaking
+
+`
+,
+		html: ''
+
+	},
+	{
 		title: 'Nothing - Dance on the Blacktop',
 		img: '/blog/nothing.jpg',
 		slug: 'nothing',

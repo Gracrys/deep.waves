@@ -1,9 +1,12 @@
 <script context="module">
+import { onMount } from 'svelte';
+
 	export async function preload({ params, query }) {
         const res = await this.fetch(`${params.slug}.json`)
         const content = await res.json()
-
+				console.log(params.slug)
         if (res.status === 200) {
+					// return this.redirect(200, params.slug) ;
             return { content };
 		} else {
 			this.error(res.status, content.message);
@@ -15,7 +18,7 @@
 	import Article from "../components/Article.svelte"
 
     export let content;
-    let {posts, actualTag} = content
+		let {posts, actualTag} = content
 </script>
 
 
