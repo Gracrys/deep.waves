@@ -21,12 +21,18 @@ const posts = [
 		summary: 'Experimental pop album, bunch of electronics, with a trasgender concept and touching the margins of reggaeton in this heavy masterpiece',
 		tags: ['#pop','#noise', '#electronics', '#reggaeton', '#experimental'],
 		md: `
-At first i didnt wanted to check on this album, i appreciate Arca work, he is a beast live, great producer and as an amazing concept in her music
+At first i didnt wanted to check on this album, i appreciate Arca work, he is a beast live, great producer and as an amazing concept in her music.
+
 But also i tend to feel deply connected, not only because i feel like i can understand her deeply, words, style, struggle, (not that im a trans)but also has a style with some drops of **sophie**, some of **bjork**, etc..
+
 Well the album, it goes in progression, the arrangement of songs is excelent, i was expecting that collab with **Rosalia**, and **KLK** brought it to me, which made me wantto listen the album... is a harsh experimental - gitchy sound with a moombatoon - reggaeton melody, catchy and at the same time further the ring
+
 but the song which made me into it was **machote**, that song is not only... hilarious to me, but also, take a relisen to it, is a struggle, a song made from loneliness and the seek of these pinches of pleasure
-has that old sound of arca, some depresso - warm melody in its lyrics. nice struff
+
+has that old sound of arca, some depresso - warm melody in its lyrics. nice stuff
+
 Now, for the sound that left me speechless, **Afterwards**, was unexpected, i had to check my playlist again to see if i wasnt listening to **bjork**, and i was... that collab was just too strong, not all experimental artists have that pleasure, this pushes this album over the scale
+
 `
 ,
 		html: ''
