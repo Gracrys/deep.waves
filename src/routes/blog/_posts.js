@@ -16,7 +16,7 @@ const converter = new showdown.Converter()
 const posts = [
 {
 		title: 'Arca - Kick I',
-		img: '/blog/arca.png,
+		img: '/blog/arca.png',
 		slug: 'arca',
 		summary: 'Experimental pop album, bunch of electronics, with a trasgender concept and touching the margins of reggaeton in this heavy masterpiece',
 		tags: ['#pop','#noise', '#electronics', '#reggaeton', '#experimental'],
