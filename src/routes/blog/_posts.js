@@ -15,6 +15,27 @@ const converter = new showdown.Converter()
 
 const posts = [
 {
+		title: 'Midori (ミドリ) - Aratamemashite, Hajimemashite, Midori Desu',
+		img: '/blog/midori.jpg',
+		slug: 'midori',
+		summary: 'For me, the epitome of japanese punk jazz ',
+		tags: ['#jazz','#noise', '#punk', '#japanese', '#experimental'],
+		md: `
+One of my favs bands, that can crash into a soft voice with a soothing piano to a harsh screamo punk
+
+The first song of the album is a soothing guitar melody which also depicts the soft voice of this frontman, one of the best i have seen in concerts.
+Followed by a harsh aggresive song, __ゆきこさん__ , also named __Yukiko-san__ which starts the first two seconds with an strident scream, i dont understand japanese that well, but is not needed to understand, to feel the emotions in the songs, the voice changes, and the variant rythmn.
+
+The variant, experimental harmony in the songs make such a background, how all the instruments seem like improvising in company, and how the main focus is obviously, midori voice
+But honestly, i think the most important fact about the band, is the energetic voice of the singer, dancing and trashing all around the scenary.
+Highly recommended for avant garde fans.
+`
+,
+		html: ''
+
+	},
+
+{
 		title: 'Arca - Kick I',
 		img: '/blog/arca.png',
 		slug: 'arca',
