@@ -2,7 +2,7 @@
 
 Music blog for reviews an recommendations
 
-_____todo__
+__todo__
 [ X ] MD - Like posts and make a md to html parser
 [ ] LAST.FM api connection
 [ ] And well, more posts
