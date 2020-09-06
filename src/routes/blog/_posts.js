@@ -15,6 +15,28 @@ const converter = new showdown.Converter()
 
 const posts = [
 {
+		title: 'The Body - I dont ever want to be alone',
+		img: '/blog/body.jpg',
+		slug: 'the-body',
+		summary: 'Noise packed horror - noise - power electronics',
+		tags: ['#electronics','#noise', '#metal', '#powerelectronics', '#experimental', 'underground'],
+		md: `
+Noise since the start of the album, some intro is passed and so comes a big fuzz which accompanies all the songs,
+
+riffs,
+drums
+screeches
+and more can be said about this chaotic album which surprised me, startled would i say
+
+__What Have I Let The World Make Of Me __ Being the most consistent piece, some riffs at a dissonant tempo and a classic moombaton sound in the background
+
+I feel deeply sorry for the lack of context, just listen to this emotional horror noise album, you will really like it if you are into this kind of stuff
+`
+,
+		html: ''
+
+	},
+{
 		title: 'Midori (ミドリ) - Aratamemashite, Hajimemashite, Midori Desu',
 		img: '/blog/midori.jpg',
 		slug: 'midori',
