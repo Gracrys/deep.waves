@@ -13,7 +13,37 @@ const converter = new showdown.Converter()
 
 
 
+
 const posts = [
+
+{
+		title: 'Joji - Nectar',
+		img: '/blog/nectar.jpg',
+		slug: 'nectar',
+		summary: 'trap - lofi sentimental album, by the introspective joji',
+		tags: ['#electronics','#trap', '#rap', '#lofi', '#joji'],
+		md: `
+Well... Joji is not that underground or obscure as you may know, and neither that experimental, just catchy pop song with lofi style or indie style ~despite being part of 88rising~ and this album just used a higher electronic production and trp style... kind of what pink guy would have done, except that pink guy is dead, filthy frank is also dead, and joji is just sad.
+
+This album is nothing new on georgie miller career, the same kind of songs that you would put at the end of a party... excepting that for some reason, the tables turned and zoomers love this feeling of despair and introspection between their poppy trappy - electronic - rap songs just to make them look a little more intellectual or closer to their inner self... hillarious, but normal
+
+Joji has became the symbol of depressing rap after what happened with emo trap and cloud rap, is just the symbol of lofi rap after some jazz rap oldschools, and this album is just a step further, great collabs, longer amount of songs (maybe because of the fact that this is not an ep like the others of the same artists), and despite some of the scandals about his story this is just a mark, an engraving into pop music nowadays, i really like joji, even over some of my experimental avant garde - noisy packed artists... 
+
+This album starts with the classic sad song excepting that shows a drum machine sound over the same electronic midi melody that always accompanied joji, soft melodies, rnb, catchy, whatever you may call it, this one, called *tick tock* which depicts a melody 4/4 with a tickling sound, really good rhytmn, not amusing
+but, point in favor of joji, man, great lyrics
+__As time keeps slipping away__ sounds so repetitive, is kind of naive, but the sum of all the parts of the song make the chorus... really interesting.
+
+*modus* is another banger, trap based song with high pitched parts, remind me of ol' pink guy... real good lyrics and the melody and harmony in the chorus is just... blessed.
+
+*run* was the first single of the album, launched some time ago really catched my attention, i felt identified by the video and lyrics, same style of sad joji, i think if i give this song a 8 is because of an emotional attachment to mny of the songs
+the collab with diplo was kind of cool, diplo has that... ability to adapt to others style as seen in lsd in which i also made a review long ago, is like adding that higher production that maybe joji needed to feel sometimes in his works... dont know, doesnt make a big of difference, but, adds to the album indeed
+
+gimme love is like the weaker song in the album, maybe because is turning towards pop... yep... feels more catchy and repetitive __not saying that the others songs arent repetitive__ ...
+
+i think the quality of this work stays on its emotional value, i cannot get to a conclusion yet, but i must say that it really does touch my heart`
+,
+		html: ''
+	},
 {
 		title: 'The Body - I dont ever want to be alone',
 		img: '/blog/body.jpg',
