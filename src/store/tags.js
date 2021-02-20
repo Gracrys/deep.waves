@@ -13,8 +13,12 @@ export  const tags = [
     },{
         name: "#garage",
         slug: "garage"
-    },{
-        name: "#blues",
-        slug: "blues"
     },
+    {
+        name:"#industrial",
+        slug: "industrial"
+    },{
+        name:"#electronic",
+        slug: "electronic"
+    }
 ]
