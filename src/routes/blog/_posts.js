@@ -15,7 +15,25 @@ const converter = new showdown.Converter()
 
 
 const posts = [
+{
+		title: 'Black Dresses - Forever in your heart',
+		img: '/blog/blackdresses.jpg',
+		slug: 'blackdresses',
+		summary: 'industrial - noise album with a punk or pop thematic',
+		tags: ['#metal','#electronic', '#noise', '#industrial', '#harshnoise'],
+		md: `
+Well... lately in this century, metal has turned a little poppy or has fused with more poppy genres like trap, rap, punk rock, etc, one example of this, is poppy, an artist that has catchy pop sounds with an inmersive metal background, or the all so lovely babymetal.
+and this album, despite this drowns into a more industrial scene.
 
+This album starts with a harsh intro of noise and industrial, metal percusion and strident melodies with screams, going harder and deeper with each song.
+peacesign!! doesnt gets less melodious, is still a great intro, not too aggresive, but with a nice shock factor,  i mean _concrete bubble_ starts with some aangsty screams showing big signs of anxiety and sharing them, the album gets softer with the time, being the last two songs _mistake_ and _(cant) keep it together_ being softer and more poppy with just normal electronic industrial
+
+the album shows a new angle to modern industrial, getting more noisy and more pop - punk but with the same feelings of anxiety, despair, a great album indeed
+
+`
+,
+		html: ''
+	},
 {
 		title: 'Joji - Nectar',
 		img: '/blog/nectar.jpg',
@@ -31,7 +49,7 @@ Joji has became the symbol of depressing rap after what happened with emo trap a
 
 This album starts with the classic sad song excepting that shows a drum machine sound over the same electronic midi melody that always accompanied joji, soft melodies, rnb, catchy, whatever you may call it, this one, called *tick tock* which depicts a melody 4/4 with a tickling sound, really good rhytmn, not amusing
 but, point in favor of joji, man, great lyrics
-__As time keeps slipping away__ sounds so repetitive, is kind of naive, but the sum of all the parts of the song make the chorus... really interesting.
+_As time keeps slipping away_ sounds so repetitive, is kind of naive, but the sum of all the parts of the song make the chorus... really interesting.
 
 *modus* is another banger, trap based song with high pitched parts, remind me of ol' pink guy... real good lyrics and the melody and harmony in the chorus is just... blessed.
 
