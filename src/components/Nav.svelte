@@ -79,7 +79,7 @@ header
 	<nav>
 		<ul>
 			{#each tags as tag}
-				<li><a href="{tag.slug}">{tag.name + "/"}</a></li>
+				<li><a href="{tag.slug+ "/"}">{tag.name }</a></li>
 			{/each}
 
 			<!-- <li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>
