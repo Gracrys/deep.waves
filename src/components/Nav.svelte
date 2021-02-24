@@ -2,6 +2,13 @@
 	import { tags } from "../store/tags.js"
 	// export let segment;
 	export let open = false;
+
+import { goto } from '@sapper/app';
+// function async go(x){
+// 	console.log(x.target.a)
+// 	await goto(x.target.a)
+// }
+
 </script>
 
 <style lang="sass">
@@ -79,7 +86,7 @@ header
 	<nav>
 		<ul>
 			{#each tags as tag}
-				<li><a href="{tag.slug+ "/"}">{tag.name }</a></li>
+				<li><a sapper:prefetch rel=prefetch href="{tag.slug+ "/"}" >{tag.name }</a></li>
 			{/each}
 
 			<!-- <li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>

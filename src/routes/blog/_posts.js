@@ -16,6 +16,25 @@ const converter = new showdown.Converter()
 
 const posts = [
 {
+		title: 'Zero 7 - Simple Things',
+		img: '/blog/zero7.jpg',
+		slug: 'SimpleThings',
+		summary: 'Trip hop downtempo album',
+		tags: ['#triphop','#electronic', '#downtempo', '#sia'],
+		md: `
+I have been a fan of trip hop since a long time, being one of my favs genres, so.. imagine liking harsh noise and trip hop... yes...
+And Zero 7 is one of the most complete bands in that genre, an this album, i may say that is the peak of said band, they have more electronic works than anyhing else, in this album we can listen to a wide variety of downtempo inmersive beats, for me, this is bliss
+destiny and waiting line show Sia voice, yes, Sia, which adds a more pop sound without getting out from the vibes of the album
+
+distractions is a sweet foam of candies over a downtempo beat, the atmosphere is excelent, but you get overly inmersed when she says "i love you"
+
+the album is one of the master pieces of trip hop in general, and also, a sleeper, over subestimated and not that known, but if you like air, or portishead, this is your next step
+
+`
+,
+		html: ''
+	},
+{
 		title: 'Black Dresses - Forever in your heart',
 		img: '/blog/blackdresses.jpg',
 		slug: 'blackdresses',

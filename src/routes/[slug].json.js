@@ -15,6 +15,7 @@ export function get(req, res) {
      if(contents.posts.length > 0){
 
     res.end(JSON.stringify(contents));
+    console.log(contents)
      }else{
   res.writeHead(404, {
 			'Content-Type': 'application/json'

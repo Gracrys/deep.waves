@@ -6,19 +6,26 @@ import { onMount } from 'svelte';
         const content = await res.json()
 				console.log(params.slug)
         if (res.status === 200) {
+        	 // await this.redirect(200 , params.slug)
 					// return this.redirect(200, params.slug) ;
-            return { content };
+            return  { content };
 		} else {
+
 			this.error(res.status, content.message);
 		}
     }
 </script>
 
 <script>
+    export let content;
+  
+import { goto } from '@sapper/app';
+// function async go(x){
+// 	console.log(x.target.a)
+// }	
 	import Article from "../components/Article.svelte"
 
-    export let content;
-		let {posts, actualTag} = content
+		let {posts, actualTag} = content 
 </script>
 
 
