@@ -17,7 +17,7 @@ const converter = new showdown.Converter()
 const posts = [
 {
 		title: 'Entropia - Simetria',
-		img: '/blog/entropa.jpg',
+		img: '/blog/entropia.jpg',
 		slug: 'Entropia',
 		summary: 'Progressive symphonic colombian band',
 		tags: ['#metal','#progressive', '#symphonic', '#melodic'],
