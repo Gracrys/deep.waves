@@ -16,6 +16,24 @@ const converter = new showdown.Converter()
 
 const posts = [
 {
+		title: 'Entropia - Simetria',
+		img: '/blog/entropa.jpg',
+		slug: 'Entropia',
+		summary: 'Progressive symphonic colombian band',
+		tags: ['#metal','#progressive', '#symphonic', '#melodic'],
+		md: `
+This album, this band, is one of the best progressive metal bands i have heard, the voice is just so changing and emotional, but at the same time, technical, the keyboard gives it a little cybernetic style and the rythmn is changing constantly, i always compared it to the mars volta
+Ok, i am not a rooting fan of progressive, im more a fan of industrial, this band is like... at the brink of these two worlds, chilling electronic beats on a upchanging metal sound
+_poetry in motion_ is a banger of styles, following the voice of the singer
+_the cube_ is an upbeat  song about maths and stuff, they have that really nerdy style, but gets on nice
+
+this is their first album, i have heard more from them but sounds... so different, but this album, is just fantastic for fans of high speed progressive like dragonforce or cyberwings, but also you can compare them to sybreed on electronic metal or symphony x.
+
+`
+,
+		html: ''
+	},
+{
 		title: 'Zero 7 - Simple Things',
 		img: '/blog/zero7.jpg',
 		slug: 'SimpleThings',
