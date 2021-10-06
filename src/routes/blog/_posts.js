@@ -16,6 +16,23 @@ const converter = new showdown.Converter()
 
 const posts = [
 {
+		title: 'Noise/Girl - Discopathology',
+		img: '/blog/noise_girl.jpg',
+		slug: 'noise_girl',
+		summary: 'Powerful noise dance album ',
+		tags: ['#electronic','#powernoise', '#noise', '#experimental', '#harsh'],
+		md: `
+
+Well, it starts like any other noise album,white noise, but man, these samples, these melodies, for sure are catchy, long time without listening to some power noise album, has a nice set of drums, sounds raw, aggresive, and has that little spice of industrial that just hits the right spot
+_Smoke n' mirrorz_ is a trip between harsh noise and a crazy set of drums glitching between sides
+_Discopathology_ sounds like a good disco song, which you would dance in some oldschool rave, excepting that is full of white noise, anxiety and power electronics, but has a nice constituted, processed melody, with some breakdowns, nice and fresh
+
+Not much to say about this small album, but made me return to this blog so... for sure is a lot lol
+`
+,
+		html: ''
+	},
+{
 		title: 'Unkle - War Stories',
 		img: '/blog/unkle.jpg',
 		slug: 'Unkle',
