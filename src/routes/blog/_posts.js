@@ -18,7 +18,7 @@ const posts = [
 {
 		title: 'Glitch and GlitchCore',
 		img: '/blog/music girl.jpg',
-		slug: 'gitchcore',
+		slug: 'glitchcore',
 		summary: 'A summary of the story of glitchcore (Cover by me)',
 		tags: ['#critique','#article', '#glitch', '#glitchcore', '#electronic'],
 		md: `
