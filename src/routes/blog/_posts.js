@@ -16,6 +16,39 @@ const converter = new showdown.Converter()
 
 const posts = [
 {
+		title: 'Glitch and GlitchCore',
+		img: '/blog/music girl.jpg',
+		slug: 'gitchcore',
+		summary: 'A summary of the story of glitchcore (Cover by me)',
+		tags: ['#critique','#article', '#glitch', '#glitchcore', '#electronic'],
+		md: `
+
+Many genres come from small underground scenes, the same way many rock subgenres started in small garages and local movements, and this is the case for **glitchcore** and **glitchhop** in general
+
+### VaporWave
+In 2010 _Vaporwave_ started banging our speakers and youtube recommendations, for someone who was really into glitch music with artists like the _the glitch mob_, and _crosses †††_ , and loved the glitch aesthetic, the same art i was doing and sharing, glitch was many times called wrongly "vapor wave", vapor wave represented a softer melody, like ambient, with smaller jumps, almost not scratches and overall, a pastel aesthetic using some  1990s elements, more like a leaning towards a more vintage side, the difference was pretty obvious, but is not like there were some big parameters to difference between one or the another, only for people who cared about the genres and styles.
+
+
+### Chiptune
+_Chiptune_ was a pet genre, from time you could listen to some of these beats on small artists, _nintendocore_ got a more wider audience from britain and europe, with that 8bits style but with more drum and bass influence.
+
+### Glitch Predecessors
+For glitch it was almost the same case, small artists using these jumps, scratches and recording errors and sampling, saturating, etc. In clubs and mixes, artists like _autechre_  and _coil_, while others like _the glitch mob_, used this sound and embraced it, using it as a trademark, the glitch mob sound was more house-like, deviating from rave styles and getting more elements of artists like _deadmou5_.
+
+
+### GlitchCore
+Now in 2021-2022, we are getting almost the same issue, _Glitchcore_ was a a really old genre, that was like a step further from  _drill and bass_, _chiptune_, _nintendocore_ an most important, _breakcore_ and _glitch hop_. 
+
+_GlitchCore_ was a step further, not only it was a more stronger genre, faster tempo (like way faster speed, 170-190+) but more elements, aggresive drums, inclusion of noise, and others elements, artists like _Venetian Snares_, _bong-ra_ and _igorr_ played with the genre between their breakcore eps, and later artists like _sewerslvt, lolishit, vertigoaway, machinegrl_, and others, embraced the genre, using it as main style and even in aesthetics, most of them used anime elements fused with glitch designs of oversaturated colors and chopped pictures, until now, for anybody who wants to get into that genre, he can can just listen to some sewerslvt, is one of the best doors for that big palace of musical abstraction.
+
+Knowing about how these movements shaped the music we have now is big, it is product of iteration and iteration, experimentation over years, maybe decades, while also, helping label subgenres and tying knots in the history of music, even artists from the pop scene (like grimes) got influenced by that style of glitch and used it.
+
+Another issue here is, do we have objective ways of labeling genres? Kinda, we get to label these by ear most of the times, like "it may be this because sounds like this song", and we can be wrong, in the case of glitchcore, the tempo, and use of musical elements play a big part, but there are many other genres in the suffix of -core in the electronic nature that we may confuse.
+`
+,
+		html: ''
+	},
+{
 		title: 'Noise/Girl - Discopathology',
 		img: '/blog/noise_girl.jpg',
 		slug: 'noise_girl',
