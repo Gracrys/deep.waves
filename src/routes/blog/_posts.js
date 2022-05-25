@@ -16,9 +16,9 @@ const converter = new showdown.Converter()
 
 const posts = [
 {
-		title: 'Thou and Emma Ruth Rundle',
+		title: 'Thou and Emma Rundle',
 		img: '/blog/thou.jpg',
-		slug: 'glitchcore',
+		slug: 'thou',
 		summary: 'Thou and Emma Ruth Rundle, and how to make a soft strong post metal album',
 		tags: ['#Blackgaze','#Doom', '#Stoner', '#Metal', '#Post Metal', '#noise'],
 		md: `
